@@ -7,7 +7,7 @@
 ## 项目简介
 
 这是一个围绕 Kaggle `NBME - Score Clinical Patient Notes` 竞赛构建的医疗文本信息抽取项目。任务目标是根据 `feature_text`，从临床病历 `patient notes` 中定位对应的证据片段，并输出字符级别的 `span` 位置。
-
+这是个人的银牌解决方案
 从建模角度看，这不是传统的分类任务，而是一个更接近 **token classification / span extraction** 的命名实体识别问题。项目核心做法是：
 
 - 使用 `DeBERTa` 系列预训练模型作为 backbone
